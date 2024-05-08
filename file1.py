@@ -1,3 +1,6 @@
-x = int(input("Enter Your 1st Number: "))
-y = int(input("Enter Your 2nd Number: "))
-print("Result : ",x+y)
+def add():
+	a = int(input("Enter Your 1st Number: "))
+	b = int(input("Enter Your 2nd Number: "))
+	return print("Result: ",a+b)
+
+add()
